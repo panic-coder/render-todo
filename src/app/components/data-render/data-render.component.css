@@ -1,0 +1,36 @@
+.example-card {
+  min-width: 300px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.status-header {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 15px;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+.status-value {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.card-div {
+  height: 100%;
+}
+
+.pageNumber {
+  font-size: 12px;
+  font-weight: 500;
+}

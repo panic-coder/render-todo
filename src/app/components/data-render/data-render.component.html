@@ -1,0 +1,20 @@
+<div class="card-div" fxLayout="row" fxLayoutAlign="center center">
+  <mat-card class="example-card">
+    <!-- <p class="pageNumber"></p> -->
+    <mat-card-header fxLayout="row" fxLayoutAlign="center center">
+      <mat-card-title>{{pageId}}.{{title}}</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content fxLayout="row" fxLayoutAlign="center center">
+      <p class="status-header">Status : </p>
+      <p class="status-value">{{status}}</p>
+    </mat-card-content>
+    <mat-card-actions fxLayout="row" fxLayoutAlign="center center">
+      <!-- <button mat-raised-button color="primary">PREVIOUS</button> -->
+      <mat-icon aria-hidden="false" aria-label="Example home icon" matTooltip="Previous" class="pointer" (click)="previous()" >arrow_back_ios</mat-icon>
+      <mat-icon aria-hidden="false" aria-label="Example home icon" matTooltip="Next" class="pointer" (click)="next()">arrow_forward_ios</mat-icon>
+      
+      <!-- <button mat-raised-button color="primary">NEXT</button> -->
+    </mat-card-actions>
+  </mat-card>
+</div>
